@@ -76,13 +76,7 @@ body {
 #micImg {
     position: relative;
     top: 3px;
-    width: 1%;
-    margin: 0px;
-    padding: 0px;
-}
-#micImg {
-margin: 0px;
-padding: 0px;
+    width: 4%;
 }
 #googleSearch {
     width: 130px;
