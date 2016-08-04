@@ -5,68 +5,68 @@ body {
     overflow: hidden;
     clear: both;
 }
-.wrapper {
-    width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-}
-.nav {
+.header {
     display: block;
-    height: 190px;
+    height: 197px;
 }
 .menu {
+    display: inline-block;
+    float: right;
+    width: 265px;
     height: 50px;
     line-height: 50px;
-    float: right;
-    overflow: visible;
+    margin: 6px;
+}
+.nav {
+    display: inline-block;
+    padding-right: 1px;
+}
+#menuImg {
+    vertical-align: middle;
+    width: 66%
 }
 #signin {
-    width: 67px;
-    height: 26px;
+    width: 66px;
+    height: 28px;
     line-height: 28px;
     border: 1px solid #4285f4;
     font-weight: bold;
     outline: none;
     background: #4285f4;
-    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
-    margin-right: 30px;
     text-align: center;
+    margin: 0
 }
 #signInLink {
     color: white;
+    margin: auto;
 }
-li {
-    height: 20px;
-    display: inline-block;
-    margin-right: 8px;
-}
-img {
-    position: relative;
-    top: 7px;
-    width: 65%
-}
-a {
-    position: static;
-    text-decoration: none;
+.mainContent {
+    width: 1000px;
+    margin: 0 auto;
     text-align: center;
-    color: rgb(107, 107, 107);
 }
 #logoImg {
-    width: 27%;
-    margin-bottom: 33px;
+    width: 27.25%;
+    margin-bottom: 26px;
 }
 #searchBox {
-    width: 600px;
-    height: 39px;
+    display: block;
+    width: 580px;
+    height: 38px;
     border: 1px solid #D9D9D9;
     margin: auto auto 33px auto;
 }
+#searchBox:hover {
+    border: 1px solid #C6C6C6;
+}
 #search {
+    display: block;
+    position: relative;
+    top: 2.5px;
     float: left;
-    width: 550px;
-    height: 37px;
-    display: flex;
-    font-size: 13pt;
+    width: 525px;
+    height: 28px;
+    font-size: 14pt;
     margin: 0px 0px 0px 10px;
     border: none;
 }
@@ -74,9 +74,15 @@ a {
     outline: 0;
 }
 #micImg {
-    display: inline-block;
-    display: flex;
-    width: 4%;
+    position: relative;
+    top: 3px;
+    width: 1%;
+    margin: 0px;
+    padding: 0px;
+}
+#micImg {
+margin: 0px;
+padding: 0px;
 }
 #googleSearch {
     width: 130px;
@@ -104,9 +110,6 @@ a {
 #luckySearch:hover {
     border: 1px solid lightgray;
 }
-#submitGrp {
-    //margin-bottom: 120px;
-}
 #footer {
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
@@ -116,21 +119,29 @@ a {
     height: 37px;
     width: 100%;
 }
-div#lMenu {
+#fNav, li, a {
+    position: static;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(107, 107, 107);
+    height: 20px;
+    display: inline-block;
+    margin-right: 8px;
+}
+#lMenu {
     float: left;
     display: flex;
 }
-div#lMenu a {
+#lMenu a {
     margin: 0 20px 0 0;
 }
-div#rMenu {
+#rMenu {
     float: right;
     display: flex;
 }
-div#rMenu a {
+#rMenu a {
     margin: 0 20px 0 0;
 }
 a:hover {
     text-decoration: underline;
 }
-s
